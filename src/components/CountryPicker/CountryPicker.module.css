@@ -1,0 +1,33 @@
+.formControl {
+    
+    width: 70%;
+    margin-bottom: 30px !important;
+    text-decoration: none;
+}
+
+
+.direitos {
+    font-size: 0.8em;
+    color: #1c1c1c; 
+    font-family: 'Roboto', sans-serif;
+}
+
+.lucas {
+    animation: glow 2s ease-in-out infinite alternate;
+    color: #de4188;
+    font-family: 'Roboto', sans-serif;
+}
+
+.lucas:hover {
+    text-decoration: none;
+    color: #744545;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 20px red;
+    }
+    to {
+        text-shadow: 0 0 30px red, 0 0 10px red;
+    }
+}
