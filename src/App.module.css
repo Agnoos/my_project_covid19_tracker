@@ -1,0 +1,30 @@
+body{
+    background: linear-gradient(235deg, #a5a8bd, #d3d4c3);
+    background-size: 400% 400%;
+
+    -webkit-animation: Background 0s ease infinite;
+    -moz-animation: Background 0s ease infinite;
+    animation: Background 0s ease infinite;
+}
+
+@-webkit-keyframes Background {
+    0%{background-position:92% 0%}
+    50%{background-position:9% 100%}
+    100%{background-position:92% 0%}
+}
+@-moz-keyframes Background {
+    0%{background-position:92% 0%}
+    50%{background-position:9% 100%}
+    100%{background-position:92% 0%}
+}
+@keyframes Background {
+    0%{background-position:92% 0%}
+    50%{background-position:9% 100%}
+    100%{background-position:92% 0%}
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
